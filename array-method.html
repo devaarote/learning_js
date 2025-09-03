@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- change and delete -->
+    <script>
+        var a = ["Anand",28,"BE IT","software Enginner"];
+        document.write(a+ "<br>");
+        a[2]="BE CS";
+        document.write(a+ "<br>");
+
+        delete a[1];
+        document.write(a+ "<br>");
+
+    </script>
+    <!-- sorting and reverse -->
+    <script>
+        var b = ["Vishal","Akash","Raju","Niraj","Rahul","Mourvi","Radha"];
+        document.write(b+"<br>");
+        b.sort();
+        document.write(b+"<br>");
+        b.reverse()
+        document.write(b+"<br>");
+        
+    </script>
+
+    <script>
+        var c = ["Vishal","Akash","Raju","Niraj","Rahul","Mourvi","Radha"];
+        document.write(c+"<br>");
+        c.pop();
+        c.pop();
+        document.write(c+"<br>");
+        c.push("Ram");
+        document.write(c+"<br>");
+    </script>
+    <!-- shift and unshift -->
+    <script>
+         var c = ["Vishal","Akash","Raju","Niraj","Rahul","Mourvi","Radha"];
+        document.write(c+"<br>");
+        c.shift();
+        document.write(c+"<br>");
+        c.unshift("Devendra");
+        c.unshift("Samarth");
+
+        document.write(c+"<br>");
+    </script>
+         
+    <script>
+            var a = ["Vishal","Akash","Raju"];
+            var b = ["Niraj","Rahul","Mourvi"];
+            var z = ["Radha","Sham","Golu"];
+
+            var c = a.concat(b);
+                document.write(c+"<br>");
+
+            var d = c.join("/");
+                document.write(d ="<br>");
+
+             var d = a.concat(b,z);
+                document.write(d+"<br>");    
+
+
+
+
+    </script>
+</body>
+</html>
