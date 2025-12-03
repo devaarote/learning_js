@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Example 1 -->
+     <h1>change tect using DOM</h1>
+     <h2 id="title">Old Heading</h2>
+     <button onclick="Changetext()">Change text</button>
+     <hr>
+
+    <!-- example 2 -->
+    <h1>change tect using DOM</h1>
+     <h2 id="color">Hello its Devendra</h2>
+     <button onclick="Changecolor()">Change color</button>
+    <hr>
+
+    <!-- example 3 -->
+    <h1>change tect using DOM</h1>
+    <img src="images/background1.jpg" alt="background" id="myImg" width="300"> 
+     <button onclick="Changeimage()">Change image</button>
+    <hr>
+    <!-- example 4 -->
+    <h1>Input from user</h1>
+    <input type="text" id="nameInput" placeholder="Enter name">
+     <button onclick="showName()">Submit</button>
+     <h1 style="color:red" id="output"></h1>
+    <hr>
+    <script>
+
+        function showName(){
+            let name = getElementById('output').innerHtml="hello is me"=name;
+
+        }
+     </script>
+    
+     <script>
+
+        function Changeimage(){
+            document.getElementById('myImg').src ='images/background2.jpg';
+
+        }
+     </script>
+
+      <script>
+
+        function Changecolor(){
+            document.getElementById('color').style.color='blue';
+
+        }
+     </script>
+
+
+     <script>
+
+        function Changetext(){
+            document.getElementById('title').innerHTML='new heading';
+
+        }
+     </script>
+</body>
+</html>
